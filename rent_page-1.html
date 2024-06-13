@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Car</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Rent Car Page</h1>
+</header>
+
+<section>
+    <div class="car1">
+    <h2>Car Rental Details</h2>
+    <p>Thank you for choosing to rent the BMW 530i 2019!</p>
+    <img src="https://di-uploads-pod16.dealerinspire.com/bmwofbloomington/uploads/2019/02/2019-BMW-5-Series-530s-540s-2.png" alt="Car 1">
+    <p>Your rental details:</p>
+    <ul>
+        <li>Car: BMW 530i 2019</li>
+        <li>Price: $70 per day</li>
+    </ul>
+    <p>Please fill out the form below to complete your reservation:</p>
+    <br>
+    <br>
+    </div>
+    <form action="submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+        
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Car Rental Service. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

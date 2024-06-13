@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Car</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Rent Car Page</h1>
+</header>
+
+<section>
+    <div class="car1">
+    <h2>Car Rental Details</h2>
+    <p>Thank you for choosing to rent the Ford Mustang 2017!</p>
+    <img src="https://edgecast-img.yahoo.net/mysterio/api/B6263BB88ECE975CA02D87D02EE9C23B117DFA3606DFD1B982C9AA303BAC2339/autoblog/resizefill_w788_h525;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD20FOC051B021001.jpg" alt="Car 3">
+    <p>Your rental details:</p>
+    <ul>
+        <li>Ford Mustang 2017</li>
+        <li>Price: 180$ per day</li>
+    </ul>
+    <p>Please fill out the form below to complete your reservation:</p>
+    <br>
+    <br>
+    </div>
+    <form action="submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+        
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Car Rental Service. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
